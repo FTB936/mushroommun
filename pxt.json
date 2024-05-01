@@ -1,0 +1,34 @@
+{
+    "name": "mushroommun",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "bluetooth": "*",
+        "microbit-pxt-blehid": "github:bsiever/microbit-pxt-blehid#v0.0.24",
+        "bluetooth-midi": "github:microsoft/pxt-bluetooth-midi#v2.0.13",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "audio-recording": "*",
+        "servo": "*",
+        "pxt-Nexusbit": "github:beyond-coding-tw/pxt-nexusbot#v0.0.2",
+        "smarthome-kit": "github:tinkertanker/pxt-smarthome#v2.2.1",
+        "Huskylens": "github:dfrobot/pxt-dfrobot_huskylens#v2.0.6"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "6.0.26",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
